@@ -73,7 +73,7 @@ img {
     font-size: 16px;
 }
     
-button {
+.card-button {
     border: none;
     outline: 0;
     display: inline-block;
@@ -205,11 +205,13 @@ button:hover, a:hover {
     </div>
 
     <div class="w3-col m3">
-        <div class="card">
-          <img src="./images/p2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cloud Architecture">
-          <p class="title">Cloud Environments</p>
-          <p><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:white;"></i></a></i></button></p>
-        </div>    
+      <div class="card">
+        <img src="./images/p2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cloud Architecture">
+        <p class="title">Cloud Environments</p>
+          <div class="card-button">
+            <p><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:white;"></i></a></i></button></p>
+          </div>
+      </div>    
     </div>
 
     <div class="w3-col m3">
@@ -263,7 +265,7 @@ button:hover, a:hover {
     </div>
   </div>
 
-  <!-- 
+   
   <button class="w3-button w3-padding-large w3-light-grey" style="margin-top:64px">LOAD MORE</button>
 
     <div class="w3-col m3">
@@ -274,7 +276,7 @@ button:hover, a:hover {
       </div>
     </div>
   </div>
-  -->
+  
 
 </div>
 
