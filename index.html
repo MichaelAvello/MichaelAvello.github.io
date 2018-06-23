@@ -58,6 +58,7 @@ body, html {
     max-width: 300px;
     margin: auto;
     text-align: center;
+    color: white;
 }
     
 .container {
@@ -66,6 +67,13 @@ body, html {
     
 img {
     border-radius: 10px 10px 0 0;
+}
+    
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
     
 .title {
@@ -202,7 +210,7 @@ button:hover, a:hover {
     <div class="w3-col m3">
       <div class="card">
         <img src="./images/p1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Application Development">
-        <p class="title">Application Development</p>
+        <div class="centered">Application Development</div>
         <p><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:white;"></i></a></button></p>
       </div>  
     </div>
@@ -210,8 +218,8 @@ button:hover, a:hover {
     <div class="w3-col m3">
       <div class="card">
         <img src="./images/p2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cloud Environments">
-        <p class="title">Cloud Environments</p>
-        <p><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:white;"></i></a></i></button></p>
+        <div class="title">Cloud Environments</div>
+        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:white;"></i></a></i></button></div>
       </div>    
     </div>
 
