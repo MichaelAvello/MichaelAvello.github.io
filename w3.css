@@ -271,7 +271,7 @@ a{color:inherit}
 
 .w3-show-inline-block{display:inline-block!important}
 
-@media (max-width:500px){
+@media (max-width:600px){
 	.w3-modal-content{margin:0 10px;width:auto!important}
 	.w3-modal{padding-top:30px}
 	.w3-dropdown-hover.w3-mobile .w3-dropdown-content,.w3-dropdown-click.w3-mobile .w3-dropdown-content{position:relative}
@@ -292,7 +292,7 @@ a{color:inherit}
 	.w3-sidebar.w3-collapse{display:block!important}
 }
 
-@media (max-width:992px) and (min-width:501px){
+@media (max-width:992px) and (min-width:601px){
 	.w3-hide-medium{display:none!important}
 }
 
