@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1 {font-family: "Lato", sans-serif}
+body, html {height: 100%}
+.bgimg {
+    background-image: url('./images/pbsurf03.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar" id="myNavbar">    
+    <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+      <i class="fa fa-bars"></i>
+    </a>
+    <a href="#home" class="w3-bar-item w3-button">AST WORKING GROUPS</a>
+    <!-- <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red"><i class="fa fa-search"></i></a> -->
+    <a href="https://twitter.com/AST_Florida/" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-twitter fa-lg material-icons" aria-hidden="true"></i></a>   
+    <a href="https://www.meetup.com/" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-meetup fa-lg material-icons" aria-hidden="true"></i></a>
+    <a href="https://github.com/" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-github fa-lg material-icons" aria-hidden="true"></i></a>
+    <a href="#about" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-user fa-lg"></i>  ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-th fa-lg"></i>  WORKGROUPS</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-right"><i class="fa fa-envelope fa-lg"></i>  CONTACT</a>  
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+    <a href="#about" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+    <a href="#portfolio" class="w3-bar-item w3-button" onclick="toggleFunction()">WORKGROUPS</a>
+    <a href="#contact" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    <!-- <a href="#" class="w3-bar-item w3-button">SEARCH</a> -->
+  </div>
+</div>
+
+<div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-topleft w3-padding-large w3-xlarge">
+    Logo
+  </div>
+  <div class="w3-display-middle">
+    <h1 class="w3-jumbo w3-animate-top">AST WORKGROUPS | OPEN DATA</h1>
+    <hr class="w3-border-grey" style="margin:auto;width:40%">
+    <p class="w3-large w3-center">Coming Soon</p>
+  </div>
+  <div class="w3-display-bottomleft w3-padding-large">
+    Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a>
+  </div>
+</div>
+
+<div class="w3-row w3-center w3-dark-grey w3-padding-16">
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"><i class="fa fa-bar-chart" aria-hidden="true"></i></span><br>
+    Open Data
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"><i class="fa fa-database" aria-hidden="true"></i></span><br>
+    Data Management & Governance
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"><i class="fa fa-cloud" aria-hidden="true"></i></span><br>
+    Cloud & Enterprise Architecture
+  </div>
+  <div class="w3-quarter w3-section">
+    <span class="w3-xlarge"><i class="fa fa-meetup"></i></span><br>
+    Meetings & Workshops
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-row w3-center w3-dark-grey w3-padding-16"> 
+  <!-- w3-center w3-black w3-padding-64 w3-opacity w3-hover-opacity-off -->
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i>To the top</a>
+  <p>State of Florida | <a href="https://www.ast.myflorida.com/" title="AST" target="_blank" style="color:#f2f2f2" class="w3-hover-text-green">Agency for State Technology</a></p> 
+  <div class="w3-xlarge w3-section">
+    <a href="https://github.com/"><i class="fa fa-github fa-2x w3-hover-opacity" style="color:#f2f2f2"></i></a>
+    <a href="https://www.meetup.com/"><i class="fa fa-meetup fa-2x w3-hover-opacity" style="color:#f2f2f2"></i></a>
+    <a href="https://twitter.com/AST_Florida/"><i class="fa fa-twitter fa-2x w3-hover-opacity" style="color:#f2f2f2"></i></a>       
+  </div>
+</footer>
+
+</body>
+</html>
