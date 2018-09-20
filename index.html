@@ -51,7 +51,8 @@ body, html {
     }
 }
     
-/* Card CSS */
+/** 
+//Card CSS 
 .card {
     box-shadow: 1px 1px 2px 1px #666666;
     background-color: #f2f2f2;
@@ -67,7 +68,7 @@ body, html {
     padding: 8px 8px 8px 8px;
 }
     
-/*
+
 img {
     border-radius: 10px 10px 0 0;
 }
@@ -78,7 +79,7 @@ img {
     left: 50%;
     transform: translate(-50%, -50%);
 }
- */
+
     
 .title {
     background-color: #f2f2f2;
@@ -108,6 +109,8 @@ a {
     font-size: 16px;
     color: black;
 }
+    
+*/    
     
 button:hover, a:hover {
     opacity: 0.7;
@@ -213,82 +216,57 @@ button:hover, a:hover {
 </div>
 
 <!-- Container (Workgroup Topics Section) -->
-<div class="w3-content w3-container w3-padding-64" id="portfolio">
-  <h3 class="w3-center">Data Management & Application Development Workgroups</h3>
-  <p class="w3-center">Current topics include:</p><br>
-
-  <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
-  <div class="w3-row-padding w3-center">
-    <div class="w3-col m3">
-      <div class="card">
-        <img src="./images/p1.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Application Development">
-        <div class="title"><p>Application Development</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></button></div>
-      </div>  
-    </div>
-
-    <div class="w3-col m3">
-      <div class="card">
-        <img src="./images/p2.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Cloud Environments">
-        <div class="title"><p>Cloud Environments</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></i></button></div>
-      </div>    
-    </div>
-
-    <div class="w3-col m3">
-      <div class="card">  
-        <img src="./images/p6.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Geospatial Data & Geographical Information Systems">
-        <div class="title"><p>Geospatial Data</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></i></button></div>
+<!-- First Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/mountains.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
-
-    <div class="w3-col m3">
-      <div class="card">  
-        <img src="./images/p7.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Enterprise Architecture">
-        <div class="title"><p>Enterprise Architecture</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></button></div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/lights.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="/w3images/nature.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
   </div>
-    
-  <div class="w3-row-padding w3-center w3-section">
-    <div class="w3-col m3">
-      <div class="card">  
-        <img src="./images/container01.jpg" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Containerized Applications & Architecture">
-        <div class="title"><p>Containerized Apps</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></button></div>
-      </div>      
-    </div>
-
-    <div class="w3-col m3">
-      <div class="card">
-        <img src="./images/p5.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Greg Noll at Pipeline, 1964">
-        <div class="title"><p>(Placeholder)</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></button></div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/p1.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
-
-    <div class="w3-col m3">
-      <div class="card">
-        <img src="./images/p5.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Greg Noll at Pipeline, 1964">
-        <div class="title"><p>(Placeholder)</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></button></div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="/w3images/p2.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
-
-    <div class="w3-col m3">
-      <div class="card">
-        <img src="./images/p5.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity" alt="Greg Noll at Pipeline, 1964">
-        <div class="title"><p>(Placeholder)</p></div>
-        <div><button><a href="https://www.meetup.com/"><i class="fa fa-meetup w3-hover-opacity" style="font-size:36px;color:#666666;"></i></a></button></div>
+    <div class="w3-third w3-container">
+      <img src="/w3images/p3.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Lorem Ipsum</b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
       </div>
     </div>
   </div>
 
-</div>
-
-<!-- Modal for full size images on click-->
+<!-- Modal for full size images on click
 <div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
   <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
   <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
@@ -296,8 +274,9 @@ button:hover, a:hover {
     <p id="caption" class="w3-opacity w3-large"></p>
   </div>
 </div>
+-->
 
-<!-- Third Parallax Image with Portfolio Text -->
+    <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
   <div class="w3-display-middle">
      <span class="w3-xxlarge w3-text-white w3-wide">CONTACT</span>
